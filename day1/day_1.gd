@@ -2,7 +2,7 @@ extends Node
 
 
 func _ready():
-	var file = FileAccess.open("res://day1/day1.txt", FileAccess.READ)
+	var file = FileAccess.open("res://day1/day_1.txt", FileAccess.READ)
 	var content = file.get_as_text()
 	file.close()
 

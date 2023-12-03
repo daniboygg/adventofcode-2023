@@ -2,7 +2,7 @@ extends Node
 
 
 func _ready():
-	var file := FileAccess.open("res://day2/day2.txt", FileAccess.READ)
+	var file := FileAccess.open("res://day2/day_2.txt", FileAccess.READ)
 	var lines := []
 	while file.get_position() < file.get_length():
 		var line := file.get_line()
