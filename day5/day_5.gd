@@ -36,7 +36,7 @@ func _ready():
 			value = mapper.calculate_next(value)
 		positions.append(value)
 
-	print("Result of day 4-1: %d" % positions.min())
+	print("Result of day 5-1: %d" % positions.min())
 
 
 	# Remake mappers with inverse ranges
@@ -74,7 +74,7 @@ func _ready():
 
 		position += 1
 
-	print("Result of day 4-2: %d" % position)
+	print("Result of day 5-2: %d" % position)
 
 
 class Mapper:
